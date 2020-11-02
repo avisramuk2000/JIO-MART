@@ -1,0 +1,422 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    background: #008ecc ;
+    position: sticky;
+    top: 0;
+}
+  
+.innerheader{
+    display: flex;
+    margin-top: 1.2%;
+    margin-bottom: 1%;
+}
+.menubar{
+    color: white;
+    font-size: 30px;
+    margin-left: 4.5%;
+    margin-right: 3%;
+    cursor: pointer;
+}
+.jio{
+    color: white;
+    font-size: 15px;
+    margin-right: 3%;
+
+}
+.beta{
+    font-size: 10px;
+    float: right;
+}
+.searchbox{
+    width: 53%;
+    overflow: hidden;
+   
+}
+
+.search{
+width:100%;
+overflow: hidden;
+padding-bottom: 1.7%;
+padding-left: 2%;
+padding-top: 1.7%;
+border-radius: 5px;
+border: 0px;
+color: grey;
+
+}
+.signup{
+    color: white;
+    margin-left: 3%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+.cart{
+    color: white;
+    margin-left: 3%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+    
+.fa-user{
+    float: left;
+    margin-right: 5px;
+}
+.signflo{
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+.fa-shopping-cart{
+    float: left;
+    margin-right: 5px;
+}
+.cartflo{
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+.subheader{
+    width: 100%;
+    overflow: hidden;
+    background:#ececed;
+
+}
+.innersub{
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0.5%;
+  
+   
+}
+
+.innersub>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(34, 27, 27);
+}
+.innersub>ul>li:hover{
+    color: #23b0db;
+}
+
+.fa-angle-down:hover{
+transform:rotate(180deg);
+}
+.fa-map-marker{
+float: left;
+color: grey;
+margin-right: 5px;
+}
+.fa-angle-down{
+    margin-left: 5px;
+}
+.imgslider{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.img1{
+    width: 100%;
+}
+.shop{
+    width: 100%;
+    overflow: hidden;
+}
+.innershop{
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 2%;
+   
+}
+.shoppar{
+    margin-bottom: 2%;
+}
+.shopimg{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.topdeals{
+    width: 100%;
+    overflow: hidden;
+}
+.innertop{
+    width: 95%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+}
+.section1{
+    width: 15%;
+    border: grey 1px solid;
+    border-radius: 10px;
+}
+.toppar{
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.par1{
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 15px;
+}
+.par2{
+    margin-left: 5%;
+margin-bottom: 5%;
+margin-top: 5%;
+font-size: 15px;
+}
+.par3{
+    margin-left: 5%;
+font-weight: bold;
+}
+.par4{
+    color: green;
+margin-left: 5%;
+font-size: 15px;
+}
+.par5{
+    margin-top: 5%;
+    margin-left: 5%;
+    background: #008ecc;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding: 1%;
+   padding-left: 1%;
+    color: white;
+    padding-left: 15%;
+    border-radius: 5px;
+}
+.plus{
+    margin-left: 25%;
+background: #82cdee;
+border-radius: 15px;
+
+}
+.section2{
+    width: 15%;
+    border: grey 1px solid;
+    border-radius: 10px;
+}
+.section3{
+    width: 15%;
+    border: grey 1px solid;
+    border-radius: 10px;
+}
+.section4{
+    width: 15%;
+    border: grey 1px solid;
+    border-radius: 10px;
+}
+.section5{
+    width: 15%;
+    border: grey 1px solid;
+    border-radius: 10px;
+}
+.mobi{
+    width: 100%;
+   overflow: hidden;
+}
+.innermobi{
+    display: flex;
+    width: 95%;
+    margin:0 auto;
+    margin-bottom: 5%;
+    justify-content: space-around;
+}
+.offers{
+    width: 100%;
+    overflow: hidden;
+}
+.inneroffers{
+    width: 90%;
+    overflow: hidden;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+.offer1{
+    width: 23%;
+    overflow: hidden;
+border-radius: 15px;
+}
+.offpar{
+    margin-bottom: 2%;
+}
+.off{
+ background: red;
+text-align: center;
+color: white;
+font-weight: bold;
+padding-top: 3%;
+padding-bottom: 3%
+}
+.offer2{
+    
+    width: 23%;
+    overflow: hidden;
+border-radius:15px
+}
+.offer3{
+    
+    width: 23%;
+    overflow: hidden;
+border-radius: 15px
+}
+.offer4{
+    
+    width: 23%;
+    overflow: hidden;
+border-radius: 15px
+}
+.offerpar{
+    margin-left: 5%;
+}
+.inneroffers2{
+    width: 90%;
+    overflow: hidden;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+.offer5{
+    
+    width: 23%;
+
+border-radius: 15px;
+overflow: hidden;
+
+}
+.offer6{
+    
+    width: 23%;
+
+border-radius: 15px;
+overflow: hidden;
+
+}
+.offer7{
+    
+    width: 23%;
+
+border-radius: 15px;
+overflow: hidden;
+}
+.offer8{
+    
+    width: 23%;
+border-radius: 15px;
+overflow: hidden;
+}
+.partfour{
+    width: 100%;
+    overflow: hidden;
+}
+.toppart{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.toppart2{
+    width: 95%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.footer{
+    width: 100%;
+    overflow: hidden;
+   background: rgb(241, 233, 233);
+}
+.innerfooter{
+    width: 85%;
+    overflow: hidden;
+    margin: 0 auto;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.foot1{
+    width: 30%;
+font-size: 12px;
+
+line-height: 2;
+}
+.foot2{
+    width: 30%;
+    font-size: 12px;
+    line-height: 2;
+}
+.foot3{
+    width: 25%;
+    font-size: 12px;
+  
+}
+.last1{
+    margin-bottom: 5%;
+
+}
+.innerlast{
+    color: #23b0db;;
+}
+.innerlast2{
+    color: #23b0db;;
+}
+.innerlast3{
+    color: #23b0db;;
+}
+.innerlast4{
+    color: #23b0db;;
+}
+
+.last2{
+    margin-bottom: 5%;
+
+}
+.last3{
+    margin-bottom: 5%;
+
+}
+.last5{
+    margin-bottom: 5%;
+
+}
+.last6{
+    margin-bottom: 5%;
+
+}
+.play{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 3%;
+    margin-bottom: 20%;
+    width: 80%;
+}
+.copy{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
